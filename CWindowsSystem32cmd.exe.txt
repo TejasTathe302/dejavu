@@ -1,0 +1,18 @@
+
+(env) C:\Users\user5\Desktop\python36\new_demo3\dejavu>python dejavu.py --recognize file test/demo2.ogg
+{'total_time': 0.23731637001037598, 'fingerprint_time': 0.20106148719787598, 'query_time': 0.030893802642822266, 'align_time': 0.004361629486083984, 'results': [{'song_id': 1, 'song_name': b'128-Dilliwaali Girlfriend - Yeh Jawaani Hai Deewani 128 Kbps', 'input_total_hashes': 3558, 'fingerprinted_hashes_in_db': 126796, 'hashes_matched_in_input': 212, 'input_confidence': 0.06, 'fingerprinted_confidence': 0.0, 'offset': 602, 'offset_seconds': 27.95683, 'file_sha1': b'F52DDB6F92629E4FAE2603589D7424B6A48A76A6'}, {'song_id': 2, 'song_name': b'128-Tune Maari Entriyaan - Gunday 128 Kbps', 'input_total_hashes': 3558, 'fingerprinted_hashes_in_db': 144991, 'hashes_matched_in_input': 247, 'input_confidence': 0.07, 'fingerprinted_confidence': 0.0, 'offset': 3780, 'offset_seconds': 175.54286, 'file_sha1': b'15E8CFA7478855CF28F85BA565927BDC20F9D719'}]}
+
+(env) C:\Users\user5\Desktop\python36\new_demo3\dejavu>python dejavu.py --fingerprint test .ogg
+Fingerprinting all ..ogg files in the test directory
+Fingerprinting channel 1/1 for test\demo.ogg
+Fingerprinting channel 1/1 for test\demo2.ogg
+Finished channel 1/1 for test\demo2.ogg
+Finished channel 1/1 for test\demo.ogg
+
+(env) C:\Users\user5\Desktop\python36\new_demo3\dejavu>python dejavu.py --recognize file test/demo2.ogg
+{'total_time': 0.354248046875, 'fingerprint_time': 0.30630993843078613, 'query_time': 0.04159188270568848, 'align_time': 0.006346225738525391, 'results': [{'song_id': 3, 'song_name': b'demo2', 'input_total_hashes': 3558, 'fingerprinted_hashes_in_db': 3558, 'hashes_matched_in_input': 3558, 'input_confidence': 1.0, 'fingerprinted_confidence': 1.0, 'offset': 0, 'offset_seconds': 0.0, 'file_sha1': b'11CEB8E893714A6CEA01C109D5930179AECA5A78'}, {'song_id': 1, 'song_name': b'128-Dilliwaali Girlfriend - Yeh Jawaani Hai Deewani 128 Kbps', 'input_total_hashes': 3558, 'fingerprinted_hashes_in_db': 126796, 'hashes_matched_in_input': 212, 'input_confidence': 0.06, 'fingerprinted_confidence': 0.0, 'offset': 602, 'offset_seconds': 27.95683, 'file_sha1': b'F52DDB6F92629E4FAE2603589D7424B6A48A76A6'}]}
+
+(env) C:\Users\user5\Desktop\python36\new_demo3\dejavu>python dejavu.py --recognize file test/demo2-1.ogg
+{'total_time': 0.09032058715820312, 'fingerprint_time': 0.03812432289123535, 'query_time': 0.048505544662475586, 'align_time': 0.0036907196044921875, 'results': [{'song_id': 3, 'song_name': b'demo2', 'input_total_hashes': 494, 'fingerprinted_hashes_in_db': 3558, 'hashes_matched_in_input': 30, 'input_confidence': 0.06, 'fingerprinted_confidence': 0.01, 'offset': 127, 'offset_seconds': 5.89787, 'file_sha1': b'11CEB8E893714A6CEA01C109D5930179AECA5A78'}, {'song_id': 1, 'song_name': b'128-Dilliwaali Girlfriend - Yeh Jawaani Hai Deewani 128 Kbps', 'input_total_hashes': 494, 'fingerprinted_hashes_in_db': 126796, 'hashes_matched_in_input': 31, 'input_confidence': 0.06, 'fingerprinted_confidence': 0.0, 'offset': 3195, 'offset_seconds': 148.37551, 'file_sha1': b'F52DDB6F92629E4FAE2603589D7424B6A48A76A6'}]}
+
+(env) C:\Users\user5\Desktop\python36\new_demo3\dejavu>
